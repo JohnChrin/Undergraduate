@@ -1,0 +1,96 @@
+# Loan Calculator for Federal Subsidized/Unsubsidized & Unsubsidized PLUS
+# Author: John A Chrin
+# Section: CS-171-A - FA 17-18
+# Lab Sec: 062
+
+# Ask user to input "Loan Amount" & "Years".
+p = input("Loan amount? \n")
+y = input("How many years do you want the loan to be? \n")
+
+# Convert variables from "Strings" to "Floats".
+p = int(p)
+y = int(y)						
+
+# Fixed variables for loan calculations.
+# 	t = time per year interest is compounded.
+# 	ifs = federal subsidized interest rate as a decimal.
+# 	ius = federal unsubsidized interest rate as a decimal.
+# 	iup = PLUS unsubsidized interest rate as a decimal.
+# 	ffs = federal sub/unsub fee rate of the loan.
+# 	fup = PLUS unsub fee rate of the loan.
+t = 12
+ifs = 0.034
+ius = 0.068
+iup = 0.079
+ffs = 0.01051
+fup = 0.04204
+
+# Variable formulas
+# 	pus = new principle fed unsub
+#	ppus = new principle plus unsub
+# 	m = monthly payment fed sub
+# 	mus = monthly payment fed unsub
+# 	mup = monthly payment PLUS
+# 	b = balance paid over course of entire fed sub loan
+# 	bus = balance paid over course of entire fed unsub loan
+# 	bup = balance paid over course of entire PLUS loan
+# 	ip = interest paid over course of entire fed sub loan
+# 	ipus = interest paid over course of entire fed unsub loan
+# 	ipup = interest paid over course of entire PLUS loan
+# 	f = fee fed sub loan
+# 	fus = fee fed unsub loan
+# 	fupp = fee PLUS loan
+pus = p*(1+(ius*4.25))
+ppus = p*(1+(iup*4.25))
+m = ((p*ifs)/(t*(1-(1+(ifs/t))**(-y*t))))
+mus = ((pus*ius)/(t*(1-(1+(ius/t))**(-y*t))))
+mup = ((ppus*iup)/(t*(1-(1+(iup/t))**(-y*t))))
+b = m*t*y
+bus = mus*t*y
+bup = mup*t*y
+ip = b-p
+ipus = bus-p
+ipup = bup-p
+f = p*ffs
+fus = p*ffs
+fupp = p*fup
+
+# OUTPUT
+# 	Federal Subsidized Direct Loan
+print("______________________________")
+print("Federal Subsidized Direct Loan")
+print("Principle = ", round(p,2))
+print("Interest Rate = ", ifs)
+print("Years = ", y)
+print("Monthly Payment = ", round(m,2))
+print("Total Paid on Loan = ", round(b,2))
+print("Tota Interest Paid = ", round(ip,2))
+print("Additional Fees Paid = ", round(f,2))
+print("Total Costs Over Principle = ", round((f+ip),2))
+print("______________________________")
+
+# 	Federal UnSubsidized Direct Loan
+print("Federal UnSubsidized Direct Loan")
+print("Principle = ", round(p,2))
+print("Interest Rate = ", ius)
+print("Years = ", y)
+print("Monthly Payment = ", round(mus,2))
+print("Total Paid on Loan = ", round(bus,2))
+print("Tota Interest Paid = ", round(ipus,2))
+print("Additional Fees Paid = ", round(fus,2))
+print("Total Costs Over Principle = ", round((fus+ipus),2))
+print("______________________________")
+
+# 	PLUS UnSubsidized Loan
+print("PLUS UnSubsidized Loan")
+print("Principle = ", round(p,2))
+print("Interest Rate = ", iup)
+print("Years = ", y)
+print("Monthly Payment = ", round(mup,2))
+print("Total Paid on Loan = ", round(bup,2))
+print("Tota Interest Paid = ", round(ipup,2))
+print("Additional Fees Paid = ", round(fupp,2))
+print("Total Costs Over Principle = ", round((fupp+ipup),2))
+
+
+
