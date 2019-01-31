@@ -1,4 +1,4 @@
-package passByReference;
+package passByReferenceJava;
 
 /* 
    Name: John A Chrin
@@ -9,34 +9,29 @@ package passByReference;
    math. Something that Java is not great at but
    we do it anyway to show Java who is boss.
 */
-public class PassByReference
-{
+public class PassByReference {
 
-	// this is where the work happens.
-	public static void main(String[] args)
-	{
-		// next 3 lines are what the directions requested.
-		Int x = new Int(3);
-		int y = square(x) + twice(x) + once(x);
-		System.out.println(y);
-	}
+    // this is where the work happens.
+    public static void main(String[] args) {
+	// next 3 lines are what the directions requested.
+	Int x = new Int(3);
+	int y = square(x) + twice(x) + once(x);
+	System.out.println(y);
+    }
 
-	// 3 locally declared int methods to utilize Int's identical methods.
-	public static int square(Int x)
-	{
-		x.square();
-		return x.getNumb();
-	}
+    // 3 locally declared int methods to utilize Int's identical methods.
+    public static int square(Int x) {
+	x.square();
+	return x.getNumb();
+    }
 
-	public static int twice(Int x)
-	{
-		x.twice();
-		return x.getNumb();
-	}
+    public static int twice(Int x) {
+	x.twice();
+	return x.getNumb();
+    }
 
-	public static int once(Int x)
-	{
-		x.once();
-		return x.getNumb();
-	}
+    public static int once(Int x) {
+	x.once();
+	return x.getNumb();
+    }
 }

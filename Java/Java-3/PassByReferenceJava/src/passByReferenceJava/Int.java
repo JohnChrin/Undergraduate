@@ -1,4 +1,5 @@
-package passByReference;
+package passByReferenceJava;
+
 /* 
    Name: John A Chrin
    Course: CSC345
@@ -7,37 +8,31 @@ package passByReference;
    Purpose: This program executes pass by reference
    math.
 */
-public class Int
-{
-	// declare an int for Int to use
-	private static int numb;
+public class Int {
+    // declare an int for Int to use
+    private static int numb;
 
-	// default constructor per directions
-	public Int(int numb)
-	{
-		// use previously declared int
-		this.numb = numb;
-	}
+    // default constructor per directions
+    public Int(int numb) {
+	// use previously declared int
+	this.numb = numb;
+    }
 
-	public static int getNumb()
-	{
-		return numb;
-	}
+    public static int getNumb() {
+	return numb;
+    }
 
-	// created 3 class methods that return the class instance value after updating
-	// it via math.
-	public static void square()
-	{
-		numb = numb * numb;
-	}
+    // created 3 class methods that return the class instance value after updating
+    // it via math.
+    public static void square() {
+	numb = numb * numb;
+    }
 
-	public static void twice()
-	{
-		numb = 2 * numb;
-	}
+    public static void twice() {
+	numb = 2 * numb;
+    }
 
-	public static int once()
-	{
-		return numb;
-	}
+    public static int once() {
+	return numb;
+    }
 }
