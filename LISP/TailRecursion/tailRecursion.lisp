@@ -1,0 +1,26 @@
+(defun sum (n m)
+  (cond
+    ((or (not (integerp n)) (not (integerp m))) nil)
+    ((eq n 0) m)
+    ((> n 0) (sum (1- n) (1+ m)))
+    ((< n 0) (sum (1+ n) (1- m)))))
+(defun my-replace (e1 e2 L)
+  (cond
+    ((endp L) nil)
+    ((equal (first L) e1) (append (list e2) (my-replace e1 e2 (rest L))))
+    ((listp (first L)) (append (my-replace e1 e2 (first L)) (my-replace e1 e2 (rest L))))
+     (t(append (list (first L)) (my-replace e1 e2 (rest L))))
+  ))
+(defun fibonacci (n)
+  (cond
+    ((eq n 1) 0)
+    ((eq n 2) 1)
+    (t(+ (fibonacci (- n 1)) (fibonacci (- n 2))))))
+(defun fibonacci-TR (n)
+  (labels ((fibo (n n1 n2)
+	   (cond
+	     ((eq n 0) n1)
+	     ((eq n 1) n2)
+	     (t(fibo (- n 1) n2 (+ n1 n2))))))
+  (fibo n 0 1)
+    ))
