@@ -7,7 +7,7 @@ package passByReferenceJava;
    Assignment: 0
    Purpose: This program does pass by reference
    math. Something that Java is not great at but
-   we do it anyway to show Java who is boss.
+   we do it anyway to show Java who is boss!
 */
 public class PassByReference {
 
@@ -22,7 +22,7 @@ public class PassByReference {
     // 3 locally declared int methods to utilize Int's identical methods.
     public static int square(Int x) {
 	x.square();
-	return x.getNumb();
+	return Int.getNumb();
     }
 
     public static int twice(Int x) {
