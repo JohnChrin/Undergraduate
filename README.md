@@ -4,7 +4,7 @@
 This repository is a collection of all undergraduate programming work in 5 languages. While a majority of the projects are Java related. I also have experience with functional programming languages.
 * [Java](https://github.com/Spades86/Undergraduate/tree/master/Java)
 * [Python](https://github.com/Spades86/Undergraduate/tree/master/Python)
-* [C](https://github.com/Spades86/Undergraduate/tree/master/C)
+* [C/C++](https://github.com/Spades86/Undergraduate/tree/master/C)
 * [Lisp](https://github.com/Spades86/Undergraduate/tree/master/LISP)
 * [SML](https://github.com/Spades86/Undergraduate/tree/master/SML)
 
