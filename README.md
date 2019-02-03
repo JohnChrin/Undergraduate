@@ -1,4 +1,4 @@
-# Undergraduate Bachelors Computer Science
+# Undergraduate -> Bachelors Computer Science
 # ![McccLogo](https://github.com/Spades86/Undergraduate/blob/master/images/McccLogo.png) ![DrexelLogo](https://github.com/Spades86/Undergraduate/blob/master/images/DrexelLogo.png) ![WcuLogo](https://github.com/Spades86/Undergraduate/blob/master/images/WcuLogo1.png)
 ## Introduction
 This repository is a collection of all undergraduate programming work in 5 languages. While a majority of the projects are Java related. I also have experience with functional programming languages.
