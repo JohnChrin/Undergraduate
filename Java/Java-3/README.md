@@ -3,6 +3,7 @@
 My third semester in Java involved learning about processor logic gates, time accessing, and accessing, reading, and writing to files. I also explored the game Sudoku and Blackjack.
 
 ## Table of Contents
+* [BlackJack](https://github.com/Spades86/Undergraduate/tree/master/Java/Java-3/BlackJack) - Plays entire game of blackjack.
 * [ConvertDec2Binary](https://github.com/Spades86/Undergraduate/tree/master/Java/Java-3/ConvertDec2Binary) - Converting decimal to binary.
 * [DigitalClockPrint](https://github.com/Spades86/Undergraduate/tree/master/Java/Java-3/DigitalClockPrint) - Grabbing the current time from the Date class and displaying it. 
 * [LogicGateSimulation](https://github.com/Spades86/Undergraduate/tree/master/Java/Java-3/LogicGateSimulation) - Using a truth table to evaluate an input.
