@@ -5,11 +5,11 @@ This repository is a collection of all undergraduate programming work in 5 langu
 
 
 ## Contents of Repository (Quick Links to Language Specific Sections)
-* [Java](https://github.com/Spades86/Undergraduate/tree/master/Java) &nbsp;&nbsp;1991
+* [Java](https://github.com/Spades86/Undergraduate/tree/master/Java) &nbsp;&nbsp;&nbsp;&nbsp;1991
 * [Python](https://github.com/Spades86/Undergraduate/tree/master/Python) 1995
-* [C/C++](https://github.com/Spades86/Undergraduate/tree/master/C) 1972
-* [Lisp](https://github.com/Spades86/Undergraduate/tree/master/LISP) 1958
-* [SML](https://github.com/Spades86/Undergraduate/tree/master/SML) 1983
+* [C/C++](https://github.com/Spades86/Undergraduate/tree/master/C) &nbsp;&nbsp;&nbsp;&nbsp;1972
+* [Lisp](https://github.com/Spades86/Undergraduate/tree/master/LISP) &nbsp;&nbsp;&nbsp;&nbsp;1958
+* [SML](https://github.com/Spades86/Undergraduate/tree/master/SML) &nbsp;&nbsp;&nbsp;&nbsp;1983
 
 ## General info
 This project is simple Lorem ipsum dolor generator.
