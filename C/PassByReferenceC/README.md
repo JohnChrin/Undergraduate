@@ -1,2 +1,2 @@
-# C/C++
+# C/C++ ![C++Logo](https://github.com/Spades86/Undergraduate/blob/master/images/C%2B%2BLogo.jpg)
 4 Programming Paradigms - Imperative : Functional : Logic : <b>OOP</b>
