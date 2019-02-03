@@ -31,7 +31,7 @@ Required Plugins:
 * [PyDev](https://marketplace.eclipse.org/content/pydev-python-ide-eclipse) - This enables the execution of Python code.
 * [C/C++ IDE](https://marketplace.eclipse.org/content/complete-eclipse-cc-ide) - This enables the exectuion of C/C++ code.
 * [Dandelion](https://marketplace.eclipse.org/content/dandelion) - This enables the execution of CMUCL (Lisp) code.
-* [MLDev](https://github.com/andriusvelykis/ml-dev) - In order to implement this plugin, you must use the Help>[Install New Software](https://stackoverflow.com/questions/31553376/eclipse-how-to-install-a-plugin-manually) button and post this link: http://andriusvelykis.github.io/ml-dev/updates/nightly/ 
+* [MLDev](https://github.com/andriusvelykis/ml-dev) - This enables the execution of SML code. In order to implement this plugin, you must use the Help>[Install New Software](https://stackoverflow.com/questions/31553376/eclipse-how-to-install-a-plugin-manually) button and post this link: http://andriusvelykis.github.io/ml-dev/updates/nightly/ 
 
 
 ```
