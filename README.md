@@ -1,15 +1,15 @@
-# Undergraduate -> Bachelors Computer Science
+# Undergraduate -> Bachelors Computer Science (2018)
 # ![McccLogo](https://github.com/Spades86/Undergraduate/blob/master/images/McccLogo.png) ![DrexelLogo](https://github.com/Spades86/Undergraduate/blob/master/images/DrexelLogo.png) ![WcuLogo](https://github.com/Spades86/Undergraduate/blob/master/images/WcuLogo1.png)
 ## Introduction
 This repository is a collection of all undergraduate programming work in 5 languages. While a majority of the projects are Java related, I also have experience with functional programming languages. While some of the code is refactored due increased coding competency, the primary function of this repository is for experimentation with organization, documentation, and presentation. 
 
 
 ## Contents of Repository (Quick Links to Language Specific Sections)
-* [Java](https://github.com/Spades86/Undergraduate/tree/master/Java) - Link to sub-repo of Java projects.
-* [Python](https://github.com/Spades86/Undergraduate/tree/master/Python) - Link to sub-repo of Python projects.
-* [C/C++](https://github.com/Spades86/Undergraduate/tree/master/C) - Link to sub-repo of C/C++ projects.
-* [LISP](https://github.com/Spades86/Undergraduate/tree/master/LISP) - Link to sub-repo of CMUCL projects.
-* [SML](https://github.com/Spades86/Undergraduate/tree/master/SML) - Link to sub-repo of SML projects.
+* [Java](https://github.com/Spades86/Undergraduate/tree/master/Java) - &nbsp;&nbsp;&nbsp;&nbsp;Sub-repo of Java projects.
+* [Python](https://github.com/Spades86/Undergraduate/tree/master/Python) - Sub-repo of Python projects.
+* [C/C++](https://github.com/Spades86/Undergraduate/tree/master/C) - Sub-repo of C/C++ projects.
+* [LISP](https://github.com/Spades86/Undergraduate/tree/master/LISP) - &nbsp;&nbsp;&nbsp;&nbsp;Sub-repo of CMUCL projects.
+* [SML](https://github.com/Spades86/Undergraduate/tree/master/SML) - &nbsp;Sub-repo of SML projects.
 
 ## General info
 This project is simple Lorem ipsum dolor generator.
