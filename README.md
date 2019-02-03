@@ -23,7 +23,7 @@ Project is created with:
 * Ament library version: 999
 	
 ## Setup
-To run this project in its entirety, you must have an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) capable of supporting the execution of [JAVA](https://www.oracle.com/technetwork/java/javase/overview/index.html), [Python](https://www.python.org/),[C/C++](http://www.mingw.org/), [CMUCL](https://www.cons.org/cmucl/), & [SMLNJ](https://www.smlnj.org/).
+To run this project in its entirety, you must have an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) capable of supporting the execution of [JAVA](https://www.oracle.com/technetwork/java/javase/overview/index.html), [Python](https://www.python.org/), [C/C++](http://www.mingw.org/), [CMUCL](https://www.cons.org/cmucl/), & [SMLNJ](https://www.smlnj.org/).
 
 ```
 $ cd ../lorem
