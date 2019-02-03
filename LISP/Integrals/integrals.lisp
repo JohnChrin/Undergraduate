@@ -2,7 +2,7 @@
 ;;; INTEGRATE FUNCTIONS
 ;Call/type this function in the buffer to use the program and make it run.
 (defun integrate (F V &optional lo hi)
- (def-integral  (indef-integral F V)  V lo hi)))
+ (def-integral  (indef-integral F V)  V lo hi))
 
 ;Sub-function used to do actual integrals.
 (defun indef-integral (F V)
