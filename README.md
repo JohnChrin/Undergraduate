@@ -44,4 +44,3 @@ $ npm start
 ```
 
 
-h2 { text-decoration: underline; }
