@@ -33,7 +33,7 @@ Recommended Plugins:
 Required Plugins:
 * [PyDev](https://marketplace.eclipse.org/content/pydev-python-ide-eclipse) - This enables the execution of Python code.
 * [C/C++ IDE](https://marketplace.eclipse.org/content/complete-eclipse-cc-ide) - This enables the exectuion of C/C++ code.
-* [Dandelion](https://marketplace.eclipse.org/content/dandelion) - This enables the execution of CMUCL (Lisp) code. In order to implement this plugin with Eclipse in conjunction with EGit you must follow these [directions](https://github.com/Spades86/Undergraduate/blob/master/images/LispProjectConfigDirections.txt) written by [bwal213](https://github.com/bwal213) (big credit to bwal213 for his contribution to this deprecated plugin, hopefully we will coordinate a auto execution script or even better, update the plugin).
+* [Dandelion](https://marketplace.eclipse.org/content/dandelion) - This enables the execution of CMUCL (Lisp) code. In order to implement this plugin with Eclipse in conjunction with EGit you must follow these [directions](https://github.com/Spades86/Undergraduate/blob/master/images/LispProjectConfigDirections.txt) written by [bwal213](https://github.com/bwal213) (big credit to bwal213 for his contribution to this deprecated plugin, hopefully we will coordinate an auto-executed script or even better, update the plugin).
 * [MLDev](https://github.com/andriusvelykis/ml-dev) - This enables the execution of SML code. In order to implement this plugin, you must use the Help>[Install New Software](https://stackoverflow.com/questions/31553376/eclipse-how-to-install-a-plugin-manually) button inside of Eclipse and post this link: http://andriusvelykis.github.io/ml-dev/updates/nightly/ 
 
 
