@@ -3,7 +3,7 @@
 ## Introduction
 This repository is a collection of all undergraduate programming work in 5 languages. While a majority of the projects are Java related, I also have experience with functional programming languages. While some of the code is refactored due increased coding competency, the primary function of this repository is for experimentation with organization, documentation, and presentation.\
 \
-Formatting the presentation of 5 languages brings attention to a deeper concept of programming being the paradigms between different types of languages
+Formatting the presentation of 5 languages into a single respository (repo) brings attention to a deeper concept of programming being the paradigms between different types of languages. Programming paradigms is essentially a programming language's approach to problem solving. There are 4 programming paradigms and if a problem can be solved in one, it is also able to be solved in any of the other 3. Each sub-repo contained in this collection is labelled with the type of paradigm it solves problems with. This may be confusing to some so try and think about programming paradigms as if there are only 4 brains (4 types of programming languages) in the world that can solve problems and if any one of those brains figures it out, the other 3 are able to as well.
 
 <b>Education</b>: \
 Bachelors of Computer Science, West Chester University, West Chester, PA, 3.5 GPA \
