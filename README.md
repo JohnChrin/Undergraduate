@@ -1,7 +1,11 @@
 # Undergraduate -> Bachelors Computer Science (2018)
 # ![McccLogo](https://github.com/Spades86/Undergraduate/blob/master/images/McccLogo.png) ![DrexelLogo](https://github.com/Spades86/Undergraduate/blob/master/images/DrexelLogo.png) ![WcuLogo](https://github.com/Spades86/Undergraduate/blob/master/images/WcuLogo1.png)
 ## Introduction
-This repository is a collection of all undergraduate programming work in 5 languages. While a majority of the projects are Java related, I also have experience with functional programming languages. While some of the code is refactored due increased coding competency, the primary function of this repository is for experimentation with organization, documentation, and presentation. 
+This repository is a collection of all undergraduate programming work in 5 languages. While a majority of the projects are Java related, I also have experience with functional programming languages. While some of the code is refactored due increased coding competency, the primary function of this repository is for experimentation with organization, documentation, and presentation.
+
+Education:
+n	Bachelors of Computer Science, West Chester University, West Chester, PA, 3.5 GPA
+n	Associates of Mathematics, Montgomery County Community College, Blue Bell, PA, 3.9 GPA
 
 
 ## Contents of Repository (Quick Links to Language Specific Sections)
