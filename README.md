@@ -9,7 +9,7 @@ This repository is a collection of all undergraduate programming work in 5 langu
 * [Python](https://github.com/Spades86/Undergraduate/tree/master/Python) - Sub-repo of Python projects.
 * [C/C++](https://github.com/Spades86/Undergraduate/tree/master/C) - Sub-repo of C/C++ projects.
 * [LISP](https://github.com/Spades86/Undergraduate/tree/master/LISP) &nbsp;&nbsp;&nbsp;&nbsp;- Sub-repo of CMUCL projects.
-* [SML](https://github.com/Spades86/Undergraduate/tree/master/SML)  &nbsp;&nbsp;&nbsp;- Sub-repo of SML projects.
+* [SML](https://github.com/Spades86/Undergraduate/tree/master/SML)  &nbsp;&nbsp;&nbsp;&nbsp;- Sub-repo of SML projects.
 
 ## General info
 This project is simple Lorem ipsum dolor generator.
