@@ -5,7 +5,25 @@
 
 ## General info
 This project is simple Lorem ipsum dolor generator.
-	
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
 ## Technologies
 Project is created with:
 * Lorem version: 12.3
