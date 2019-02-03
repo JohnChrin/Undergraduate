@@ -1,6 +1,6 @@
 # ![C++LogoSmall](https://github.com/Spades86/Undergraduate/blob/master/images/C++LogoSmall.png?raw=true) C/C++ 
 
-4 Programming Paradigms - <b>Imperative<b> : Functional : Logic : <b>OOP</b>
+4 Programming Paradigms - <b>Imperative</b> : Functional : Logic : <b>OOP</b>
 
 ## Introduction
 This repository contains my educational background with C/C++ during a Programming Paradigms course at West Chester University.
