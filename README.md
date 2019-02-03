@@ -28,10 +28,10 @@ To run this repository of projects in its entirety, you must have an [IDE](https
 May I recommend [Eclipse](https://www.eclipse.org/) (Eclipse IDE for Java Developers, selected at installation) which if configured correctly will enable the execution of everything contained in this repository.
 
 Required Plugins:
-[PyDev](https://marketplace.eclipse.org/content/pydev-python-ide-eclipse) - This enables the execution of Python code.
-[C/C++ IDE](https://marketplace.eclipse.org/content/complete-eclipse-cc-ide) - This enables the exectuion of C/C++ code.
-[Dandelion](https://marketplace.eclipse.org/content/dandelion) - This enables the execution of CMUCL (Lisp) code.
-[MLDev](https://github.com/andriusvelykis/ml-dev) - In order to implement this plugin, you must use the Help>[Install New Software](https://stackoverflow.com/questions/31553376/eclipse-how-to-install-a-plugin-manually) button and post this link: http://andriusvelykis.github.io/ml-dev/updates/nightly/ 
+* [PyDev](https://marketplace.eclipse.org/content/pydev-python-ide-eclipse) - This enables the execution of Python code.
+* [C/C++ IDE](https://marketplace.eclipse.org/content/complete-eclipse-cc-ide) - This enables the exectuion of C/C++ code.
+* [Dandelion](https://marketplace.eclipse.org/content/dandelion) - This enables the execution of CMUCL (Lisp) code.
+* [MLDev](https://github.com/andriusvelykis/ml-dev) - In order to implement this plugin, you must use the Help>[Install New Software](https://stackoverflow.com/questions/31553376/eclipse-how-to-install-a-plugin-manually) button and post this link: http://andriusvelykis.github.io/ml-dev/updates/nightly/ 
 
 
 ```
