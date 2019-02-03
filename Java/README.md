@@ -1,5 +1,5 @@
-# JAVA
-# ![JavaLogo](https://github.com/Spades86/Undergraduate/blob/master/images/JavaLogo.png)
+# ![JavaLogoSmall](https://github.com/Spades86/Undergraduate/blob/master/images/JavaLogoSmall.png?raw=true) Java
+
 4 Programming Paradigms - Imperative : Functional : Logic : <b>OOP</b>
 
 ## Introduction
