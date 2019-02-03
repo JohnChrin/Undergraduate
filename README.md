@@ -3,7 +3,7 @@
 ## Introduction
 This repository is a collection of all undergraduate programming work in 5 languages. While a majority of the projects are Java related, I also have experience with functional programming languages. While some of the code is refactored due increased coding competency, the primary function of this repository is for experimentation with organization, documentation, and presentation.
 
-<b>Education</b>:
+<b>Education</b>: \
 Bachelors of Computer Science, West Chester University, West Chester, PA, 3.5 GPA
 Associates of Mathematics, Montgomery County Community College, Blue Bell, PA, 3.9 GPA
 
