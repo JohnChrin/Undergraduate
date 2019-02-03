@@ -28,7 +28,7 @@ To run this repository of projects in its entirety, you must have an [IDE](https
 May I recommend [Eclipse](https://www.eclipse.org/) (Eclipse IDE for Java Developers, selected at installation) as your IDE of choice,  which if configured correctly will enable the execution of everything contained in this repository.
 
 Recommended Plugins:
-* [EGit](https://marketplace.eclipse.org/content/egit-git-integration-eclipse) - Allows the linking of [Git Hub](https://github.com/) and Eclipse directly inside of the IDE. This will require the generation and linking of some SSH keys [Eclipse&GitKeySetup.pdf](http://wiki.cns.iu.edu/spaces/flyingpdf/pdfpageexport.action?pageId=13568315).
+* [EGit](https://marketplace.eclipse.org/content/egit-git-integration-eclipse) - Allows the linking of [Git Hub](https://github.com/) and Eclipse directly inside of the IDE. This will require the generation and linking of some SSH keys ([Eclipse&GitKeySetup.pdf](http://wiki.cns.iu.edu/spaces/flyingpdf/pdfpageexport.action?pageId=13568315)).
 
 Required Plugins:
 * [PyDev](https://marketplace.eclipse.org/content/pydev-python-ide-eclipse) - This enables the execution of Python code.
