@@ -5,7 +5,7 @@ My second semester narrowed my focus on code structuring (such as declaring vari
 ## Table of Contents
 * [ArrayEducation](https://github.com/Spades86/Undergraduate/tree/master/Java/Java-2/ArrayEducation) - Compilation of utilizing arrays.
 * [Auto](https://github.com/Spades86/Undergraduate/tree/master/Java/Java-2/Auto) - Utilizing progressively more advanced child classes.
-* [Bank](https://github.com/Spades86/Undergraduate/tree/master/Java/Java-2/Bank) - Utilizing progressively more advanced child classes, but in different packages so the files could be named the exact same.
+* [Bank](https://github.com/Spades86/Undergraduate/tree/master/Java/Java-2/Bank) - Utilizing progressively more advanced child classes, but in different packages.
 * [Cat-GUI-Stuff](https://github.com/Spades86/Undergraduate/tree/master/Java/Java-2/Cat-GUI-Stuff) - Experimenting with JFrames and their features. Its cats; I like them.
 * [FollowMeApp](https://github.com/Spades86/Undergraduate/tree/master/Java/Java-2/FollowMeApp) - JFrame with googly eyes that follow your mouse cursor.
 * [HelloWorld](https://github.com/Spades86/Undergraduate/tree/master/Java/Java-2/HelloWorld) - Miscellaneous work including different forms of recursion.
