@@ -1,0 +1,38 @@
+INSTRUCTIONS FOR LISP CONFIG FROM GIT REPO / FROM EXISTING PROJECT:
+
+1. Setup Lisp to work in eclipse
+
+2. Create a basic / empty lisp project
+
+3. Add repo to eclipse and import without auto detection of natures
+
+4. Import project from the repo, auto detection is fine
+
+5. Go to your eclipse workspace location
+
+6. Navigate: .metadata > .plugins > org.eclipse.core.resources > .projects
+
+7. Inside this folder you should see the lisp projects
+
+8. Open the empty lisp project you created
+
+9. Inside the .indexes folder copy the properties.index file
+
+10. Now open the imported project and navigate to .indexes
+
+11. Overwrite the properties.index with the one you copied
+
+12. Restart Eclipse
+
+13. Right click the imported project, highlight Team, select share project 
+(this must be done since the project becomes unlinked from the repo upon overwritting the original properties.index)
+
+14. Share back with the original repository, you may just be able to hit next
+
+15. Restart Eclipse
+
+16. Project should be runnable, and associtaed with the repo
+
+* IMPORTANT * - If you ever delete the local storage of the LISP project and you re-import it, you must do 
+this again. If you never delete the local storage, you are freely able to pull and commit with no 
+functionality problems.
