@@ -29,10 +29,10 @@ To run this repository of projects in its entirety, you must have an [IDE](https
 
 May I recommend [Eclipse](https://www.eclipse.org/) (Eclipse IDE for Java Developers, selected at installation) as your IDE of choice,  which if configured correctly will enable the execution of everything contained in this repository.
 
-<u>Recommended Plugins</u>:
+<b>Recommended Plugins</b>:
 * [EGit](https://marketplace.eclipse.org/content/egit-git-integration-eclipse) - Allows the linking of [Git Hub](https://github.com/) and Eclipse directly inside of the IDE. This will require the generation and linking of some SSH keys ([Eclipse&GitKeySetup.pdf](http://wiki.cns.iu.edu/spaces/flyingpdf/pdfpageexport.action?pageId=13568315)).
 
-<u>Required Plugins</u>:
+<b>Required Plugins</b>:
 * [PyDev](https://marketplace.eclipse.org/content/pydev-python-ide-eclipse) - This enables the execution of Python code.
 * [C/C++ IDE](https://marketplace.eclipse.org/content/complete-eclipse-cc-ide) - This enables the exectuion of C/C++ code.
 * [Dandelion](https://marketplace.eclipse.org/content/dandelion) - This enables the execution of CMUCL (Lisp) code. In order to implement this plugin with Eclipse in conjunction with EGit you must follow these [directions](https://github.com/Spades86/Undergraduate/blob/master/images/LispProjectConfigDirections.txt) written by [bwal213](https://github.com/bwal213) (big credit to @bwal213 for his contribution to this deprecated plugin, hopefully we will coordinate an auto-executed script or even better, update the plugin).
