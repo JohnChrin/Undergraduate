@@ -20,4 +20,6 @@ public class SumofTwoNumbers // <--- Access Specifier: controls where the class 
      System.out.println("no longer lift big weights is " + a + " to " + b + ",");
      System.out.println("and I will live for " + total + " years, how sad :(.");
    }
+   
 }   
+
