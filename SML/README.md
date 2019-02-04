@@ -7,7 +7,7 @@ This repository contains my educational background with LISP during a Programmin
 
 ## Table of Contents
 * [BinaryTrees](https://github.com/Spades86/Undergraduate/tree/master/SML/BinaryTrees) - Creating [binary trees](https://www.geeksforgeeks.org/binary-tree-data-structure/) and displaying them.
-* [Patterns](https://github.com/Spades86/Undergraduate/tree/master/SML/Patterns) - Exploring patterns by reformatting words with [Pig Latin](https://en.wikipedia.org/wiki/Pig_Latin).
+* [Patterns](https://github.com/Spades86/Undergraduate/tree/master/SML/Patterns) - Exploring patterns by reformatting words with [pig latin](https://en.wikipedia.org/wiki/Pig_Latin).
 ## History
 ML Year Invented: 1973
 SML Year Invented: 1997
