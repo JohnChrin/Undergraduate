@@ -1,7 +1,6 @@
 # ![SmlLogo](https://github.com/Spades86/Undergraduate/blob/master/images/SmlLogo.png) Standard Meta Language (SML)
 
 4 Programming Paradigms - Imperative : <b>Functional</b> : Logic : OOP
-\
 ## Introduction
 This repository contains my educational background with LISP during a Programming Paradigms course at West Chester University. Parenthesis craziness.
 
