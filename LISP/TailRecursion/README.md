@@ -1,3 +1,3 @@
 # Programming-Paradigms
-CMU Common LISP (Locator Identifier Separation Protocol) and Standard Meta Language (SML)
+CMU Common LISP (Locator Identifier Separation Protocol)
 4 Programming Paradigms - Imperative : Functional : Logic : OOP
