@@ -18,23 +18,23 @@ This integrals program is has several built in testing evaluation functions (t1-
 (integrate '(- (+ (- - x) x)) 'x 1 4))
 ```
 <b>Test Functions</b>:
-t1 integrates 1 dx
-t2 integrates 1 dy definite range = 1 4
-t3 integrates z dz
-t4 integrates x+0 dx
-t5 integrates -x dx definite range = 1 3
-t6 integrates --x dx definite range = 1 4
-t7 integrates -x dx
-(defun t8 () (integrate '(- - x) 'x))
-(defun t9 () (integrate '(- - - x) 'x))
-(defun t10 () (integrate '(+ x (- x)) 'x))
-(defun t11 () (integrate '(- (+ (- - x) x)) 'x 1 4))
-(defun t12 () (integrate '(+ (+ (- - x) (+ x 3)) 2) 'x 2 6))
-(defun t13 () (integrate '(- x (expt x 3)) 'x))
-(defun t14 () (integrate '(- x (expt x 3)) 'x 2 5))
-(defun t15 () (integrate '(+ (+ x (- - - x)) (expt x 3)) 'x))
-(defun t16 () (integrate '(+ (- x (-x)) (expt x 3)) 'x 2 3))
-(defun t17 () (integrate '(expt x -1) 'x))
-(defun t18 () (integrate '(expt x -1) 'x 3 45))
-(defun t19 () (integrate '(+ (+ x (- 5 x)) (expt x -1)) 'x))
-(defun t20 () (integrate '(+ (+ x (- 5 x)) (expt x -1)) 'x 5 217))
+t1 integrates 1 dx \
+t2 integrates 1 dy | lo 1 / hi 4 \
+t3 integrates z dz \
+t4 integrates x+0 dx \
+t5 integrates -x dx | lo 1 hi 3 \
+t6 integrates --x dx | lo 1 hi 4 \
+t7 integrates -x dx \
+t8 integrates --x dx \
+t9 integrates ---x dx \
+t10 integrates x+(-x) dx \
+t11 integrates -((--x)+x) dx | lo 1 hi 4 \
+t12 integrates ((--x)+(x+3))+2) dx | lo 2 hi 6 \
+t13 integrates x-(x^3) dx \
+t14 integrates x-(x^3) dx | lo 2 hi 5 \
+t15 integrates (x+(---x))+(x^3) dx \
+t16 integrates (x-(-x))+(x^3) dx | lo 2 hi 3 \
+t17 integrates (x^(-1)) dx \
+t18 integrates (x^(-1)) dx | lo 3 hi 45 \
+t19 integrates (x+(5-x))+(x^(-1)) dx \
+t20 integrates (x+(5-x))+(x^(-1)) dx | lo 5 hi 217
