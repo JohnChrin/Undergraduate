@@ -9,7 +9,7 @@ LISP utilizes a form of mathematics where the operator (+,-) comes before the op
 ```
 	
 ## Use
-This integrals program is has several built in testing evaluation functions (t1-t20).
+This integrals program has several built in testing evaluation functions (t1-t20), but you may also make use of the integrate function to draft your own equations.
 
 ```
 (t1)
