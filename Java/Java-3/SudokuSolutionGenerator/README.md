@@ -3,13 +3,13 @@ and emplacing numbers that fit in a chronological order, such as:
 
 123456789 \
 2 . . . . . . . . \
-3........ \
-4........ \
-5........ \
-6........ \
-7........ \
-8........ \
-9........
+3 . . . . . . . . \
+4 . . . . . . . . \
+5 . . . . . . . . \
+6 . . . . . . . . \
+7 . . . . . . . . \
+8 . . . . . . . . \
+9 . . . . . . . . 
 
 This clearly did not work, and I did not take into account the 3x3 check.
 So obviously I decided to try something else stupid, I thought using a random
