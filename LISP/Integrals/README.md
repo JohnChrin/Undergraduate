@@ -1,7 +1,7 @@
 # Integrals
 
 ## Introduction
-This program allows the user to solve indefinite and definite integrals via their input.
+This program allows the user to solve indefinite and definite integrals via their input. The primary difficulty was differentiating the use of a negative sign and the compression of multiple negative symbols into either 1 negative or 0 negatives depending upon whether the amount was odd or even. Just about everything uses recursion to solve. \
 LISP utilizes a form of mathematics where the operator (+,-) comes before the operands (4,7).
 
 ```
