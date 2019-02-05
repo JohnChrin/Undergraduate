@@ -17,7 +17,7 @@ This integrals program is has several built in testing evaluation functions (t1-
 (integrate '(14 x y) 'x)
 (integrate '(- (+ (- - x) x)) 'x 1 4))
 ```
-<b>Test Functions</b>:
+<b>Test Functions</b>: \
 t1 integrates 1 dx \
 t2 integrates 1 dy | lo 1 / hi 4 \
 t3 integrates z dz \
