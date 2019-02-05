@@ -1,7 +1,7 @@
 Plays an entire game of 1-on-1 BlackJack with only the option of "splitting"
 being excluded. (This behavior requires actual betting to function.)
 
-(HW_3_1 previous method)
+(BlackJack previous method)
 Drafts a deck of cards via a String[] array return method. Spaces the indexes
 evenly for easy printing.
 
