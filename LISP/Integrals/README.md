@@ -1,4 +1,4 @@
-## Table of contents
+# Integrals
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
@@ -16,7 +16,7 @@ Project is created with:
 To run this project, install it locally using npm:
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+(t1)
+(t2)
+(integrate '(14 x y) 'x)
 ```
