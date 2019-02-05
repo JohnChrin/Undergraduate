@@ -1,5 +1,5 @@
 So at first, I thought I could solve it from using a simple array
-and implacing numbers that fit in a very chronological orders, such as:
+and emplacing numbers that fit in a chronological order, such as:
 
 123456789
 2........
