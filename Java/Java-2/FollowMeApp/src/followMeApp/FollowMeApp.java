@@ -18,10 +18,12 @@ public class FollowMeApp extends JPanel implements MouseMotionListener {
     final int X_LEFTPUPIL_LOOKLEFT = 55;
     final int Y_PUPIL_LOOKLEFT = 70;
     final int X_LEFTPUPIL_LOOKUP = 70;
-    final int Y_PUPIL_LOOKUP = 55;
+    final int Y_PUPIL_LOOKUP = 75;
     final int X_LEFTPUPIL_LOOKDOWN = 70;
-    final int Y_PUPIL_LOOKDOWN = 75;
+    final int Y_PUPIL_LOOKDOWN = 55;
     final int XOFFSET_RIGHTPUPIL = 50;
+    final int XOFFSET = 11;
+    final int YOFFSET = 10;
 
     // instance variables
     private int curLeftX;
@@ -43,7 +45,6 @@ public class FollowMeApp extends JPanel implements MouseMotionListener {
 
     // CONSTRUCTOR
     public FollowMeApp() {
-
 	curLeftX = 60;
 	curLeftY = 70;
 	curRightX = 110;
@@ -56,39 +57,35 @@ public class FollowMeApp extends JPanel implements MouseMotionListener {
     // draw pure graphics: its like a CANVAS
     public void paintComponent(Graphics g) {
 	super.paintComponent(g);
-
+	// draw left eye
 	g.setColor(Color.BLACK);
-	// draw leFollowMeAppdrawOval(50, 50, EYE_WIDTH, EYE_HEIGHT);
+	g.drawOval(48, 40, EYE_WIDTH+XOFFSET, EYE_HEIGHT+YOFFSET);
 	// draw left pupil
 	g.setColor(Color.BLUE);
 	g.fillOval(curLeftX, curLeftY, 10, 10);
-	g.setColor(Color.BLACK);
+
 	// draw right eye
-	g.drawOval(100, 50, EYE_WIDTH, EYE_HEIGHT);
+	g.setColor(Color.BLACK);
+	g.drawOval(98, 40, EYE_WIDTH+XOFFSET, EYE_HEIGHT+YOFFSET);
 	// draw right pupil
 	g.setColor(Color.BLUE);
 	g.fillOval(curRightX, curRightY, 10, 10);
 
     }
-
+    // Manages the pupils, ensures they do not leave the bounds of the ellipse. 
     public void mouseMoved(MouseEvent e) {
 	curLeftX = e.getX();
 	curLeftY = e.getY();
-	curRightX = e.getX();
-	curRightY = e.getY();
-	repaint();
+	repaint(); 
+	double angle = Math.atan2((double) (curLeftY - 50), (double)(curLeftX - 50));
+	curLeftX = (int) Math.round(Math.cos(angle)*(EYE_WIDTH/2)+63);
+	curLeftY = (int) Math.round(Math.sin(angle)*(EYE_HEIGHT/2)+60);
+	curRightX = curLeftX + XOFFSET_RIGHTPUPIL;
+	curRightY = curLeftY;
     }
-
     @Override
     public void mouseDragged(MouseEvent arg0) {
-	// TODO Auto-generated method stub
+
 
     }
 }
-
-/*
- * 
- * //listener for mouse motion -- p.961 //INNER CLASS so it has to be private private class MyListener implements MouseListener, MouseMotionListener { //MouseMotionListener REQUIRES mouseDragged() and mouseMoved() methods public void mousePressed(MouseEvent e) { //redraw the pupil when mouse is moved int curX = e.getX(); int curY = e.getY();
- * 
- * } public void mouseDragged(MouseEvent e) { } public void mouseReleased(MouseEvent e) { } }
- */
