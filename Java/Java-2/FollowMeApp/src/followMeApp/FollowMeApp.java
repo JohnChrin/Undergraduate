@@ -34,6 +34,7 @@ public class FollowMeApp extends JPanel implements MouseMotionListener {
     // DRIVERS //TESTER
     public static void main(String[] args) {
 	JFrame myApp = new JFrame();
+	myApp.setLocationRelativeTo(null);
 	myApp.setTitle("FollowMe");
 	myApp.setSize(300, 175);
 	myApp.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
