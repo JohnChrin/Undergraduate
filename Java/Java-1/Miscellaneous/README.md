@@ -9,10 +9,10 @@ I noticed a severe lack of structure in the class's delivery. Core concepts of t
 The problem of balancing is partially self-inflicted, since by the end of my 3.5 year experience, I had accured over 212 credits and merely only accomplished a bachelors degree.
 
 ## Table of Contents
-* [Java Programs](##Java-Programs) - Listing and links to individual programs.
-* [How to Teach](##How-to-Teach) - After my college experience, I retrospectively look back on how I was taught and how it applied to the real world. I have listed my thoughts on how I would go about educating students on programming from day 1.
+* [Java Programs](## Java-Programs) - Listing and links to individual programs.
+* [How to Teach](## How-to-Teach) - After my college experience, I retrospectively look back on how I was taught and how it applied to the real world. I have listed my thoughts on how I would go about educating students on programming from day 1.
 
-## Java-Programs
+## Java Programs
 * [Area](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/Area.java) - Demonstrates compile time polymorphism via method overloading.
 * [Bingo](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/Bingo.java) - Opens a GUI of two player Bingo game vs a scripted opponent.
 * [DistanceTraveled](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/DistanceTraveled.java) - User inputs speed and time traveled, outputs distance traveled. 
@@ -30,7 +30,7 @@ The problem of balancing is partially self-inflicted, since by the end of my 3.5
 * [SumNumbers](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/SumNumbers.java) - User inputs a number, outputs the sum from 1 to that input number.
 * [SumofTwoNumbers](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/SumofTwoNumbers.java) - Trivial summing of two numbers.
 
-## How-to-Teach
+## How to Teach
 <b>Stick with the Basics</b> - Get your students coding immediately, so they can better appreciate what coding is. Keep that code very simple such as "Hello World". Possibly use JGRASP for this initial introduction (ensure it is pre-installed on a school lab  computer). Keeping the first day or so 100% focused on making an executable line of code so the student has a .java file that they have written themselves is important for the next step.
 
 <b>IDE / Java SDK / Paths/</b> - Taking a huge step back from coding and teaching students where they will write and build code and why they should do it there is a fundemental step in achieving clarity. Do not use simple IDE's like JGRASP; making the initial learning process increasingly burdensome will not result in a more proficient coder. Utilizing modern IDEs that are actually utilized in the industry such as Eclipse or IntelliJ not only provides the student with larger custimization potential, but also syntax assistance (after two semesters of JGRASP and finally exposing myself to Eclipse, I was disappointed and angry to say the least).
