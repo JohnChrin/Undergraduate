@@ -1,5 +1,23 @@
 # Miscellaneous
 
+## Java Programs
+* [Area](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/Area.java) - Demonstrates compile time polymorphism via method overloading.
+* [Bingo](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/Bingo.java) - Opens a GUI of two player Bingo game vs a scripted opponent.
+* [DistanceTraveled](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/DistanceTraveled.java) - User inputs speed and time traveled, outputs distance traveled. 
+* [MagicDate](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/MagicDate.java) - User inputs month/day/year, outputs (month * day) & if = year, then "Its MAGIC!".
+* [MethodTest](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/MethodTest.java) - User inputs a String and an int, outputs the int position in the String.
+* [MonthlySalesTax](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/MonthlySalesTax.java) - Opens a GUI that helps the user calculate state & county tax.
+* [MyFirstProgram](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/MyFristProgram.java) - Outputs "I Like Turtles!".
+* [MySecondProgram](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/MySecondProgram.java) - Outputs my name, age, and a double.
+* [Payroll](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/Payroll.java) - User inputs an employee's hours worked and hourly payrate, outputs employee's wage.
+* [ProgGreatFun](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/ProgGreatFun.java) - Trivial output, designed for introduction to methods and strings.
+* [RainFall](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/Rainfall.java) - User inputs rainfall for 12 months in a year, outputs total rainfall for that year.
+* [RetailPriceCalc](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/RetailPriceCalc.java) - User inputs a product's wholesale cost and a markup %, outputs retail price.
+* [RomanNumerals](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/Star.java) - User inputs a number 1-10, outputs equivalent Roman numeral.
+* [Star](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/Star.java) - Outputs a pattern in asterisks *.
+* [SumNumbers](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/SumNumbers.java) - User inputs a number, outputs the sum from 1 to that input number.
+* [SumofTwoNumbers](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/SumofTwoNumbers.java) - Trivial summing of two numbers.
+
 ## Introduction
 Contained herein is a group of assignments associated with my Java-101 experience. The following folder includes things such as the first program I had ever written, and not suprisingly the second one as well (ha ha). My initial evaluation of my first programming class was based off of a single statement from the professor that really bothered me.
 
@@ -32,8 +50,8 @@ Now that you have an actual file to work on in your new IDE, have them append so
 
  * Optional fifth step is to introduce your students into Eclipse's EGIT to help streamline the process of adding changes to GitHub. I would recommend doing this later in the semester after familiarity with GitBash is achieved (this is for industry purposes).
 
-<b>Fundamentals</b> - Focusing on providing your students with a strong foundation, their first semester should be structured around the concepts of Java (assignements should reflect the implementation of these concepts). For example, the differences between variables, such as primitives and object references (along with objects); where you can declare them and why you should put them in certain places. Other examples being: abstract classes, inheritance, parent classes, constructors, loops, recursion, documentation (commenting)...
+<b>Fundamentals</b> - In order to provide your students with a strong foundation, their first semester should be structured around the concepts of Java (assignements should reflect the implementation of these concepts). For example, the differences between variables, such as primitives and object references (along with objects); where you can declare them and why you should put them in certain places. Other examples being: abstract classes, inheritance, parent classes, constructors, loops, recursion, documentation (commenting)...
 
-<b>History</b> - The first semester should only establish the foundations, I would recommend ignoring larger projects in favor of spending time exploring the history of programming. Having them write a program that spits out information on the history of Java or other languages would be a great example of dual-purposing two different forms of teaching.
+<b>History</b> - The first semester should only establish the foundations; I would recommend ignoring larger projects in favor of spending time exploring the history of programming. Having them write a program that spits out information on the history of Java or other languages would be a great example of dual-purposing two different forms of teaching. Most importantly, you should communicate the value of programming in society by how it has evolved in both implementation and how code is written nowadays. Big picture perspectives such as how development teams work together and the practices they use to achieve working products for their customers are also advised. 
 
 <b>The Goal</b> - By the end of the course, students should have a few projects, along with the forked template repository (that should also include directions how to resetup everything you went through during the semester, should they forget or have some issues), a firm understanding of the tools they need in order to write executable code, an appreciation for version control with GitHub and GitBash, historical background on the history of programming, and a grasp on core concepts of Java. Future semesters can build off of this solid foundation and can be rest assured that students will have far fewer questions moving forward with all of the structure the first semester built up for them.
