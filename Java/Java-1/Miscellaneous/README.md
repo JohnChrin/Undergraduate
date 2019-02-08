@@ -9,8 +9,8 @@ I noticed a severe lack of structure in the class's delivery. Core concepts of t
 The problem of balancing is partially self-inflicted, since by the end of my 3.5 year experience, I had accured over 212 credits and merely only accomplished a bachelors degree.
 
 ## Table of Contents
-* [Java Programs](## Java Programs) - Listing and links to individual programs.
-* [How to Teach](## How to Teach) - After my college experience, I retrospectively look back on how I was taught and how it applied to the real world. I have listed my thoughts on how I would go about educating students on programming from day 1.
+* [Java Programs](# Java Programs) - Listing and links to individual programs.
+* [How to Teach](# How to Teach) - After my college experience, I retrospectively look back on how I was taught and how it applied to the real world. I have listed my thoughts on how I would go about educating students on programming from day 1.
 
 ## Java Programs
 * [Area](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/Area.java) - Demonstrates compile time polymorphism via method overloading.
