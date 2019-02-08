@@ -1,7 +1,7 @@
 # Miscellaneous
 
 ## Introduction
-Contained herein is a group of assignments associated with my Java-101 experience. The following folder includes things such as the first program I have ever written, and not suprisingly the second one as well (ha ha). My initial evaluation of my first programming class was based off of a single statement from the professor that really bothered me.
+Contained herein is a group of assignments associated with my Java-101 experience. The following folder includes things such as the first program I had ever written, and not suprisingly the second one as well (ha ha). My initial evaluation of my first programming class was based off of a single statement from the professor that really bothered me.
 
 "Programming is great, it can be anything, you can do anything" - Java-101 Professor
 
