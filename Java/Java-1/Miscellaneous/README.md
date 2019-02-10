@@ -10,7 +10,7 @@ The problem of balancing is partially self-inflicted, since by the end of my 3.5
 
 ## Table of Contents 
 * [Java Programs](#java-programs) - Listing and links to individual programs.
-* [How to Teach](#how-to-teach) - After my college experience, I retrospectively look back on how I was taught and how it applied to the real world. I have listed my thoughts on how I would go about educating students on programming from day 1.
+* [How to Teach](#how-to-teach) - After my college experience, I retrospectively evaluated how I was taught and how it applied to the real world. I have listed my thoughts on how I would go about educating students on programming from day 1. Keep in mind this is a rough drafting of thoughts, but if not written now, my continued education will overshadow how I (as a student) felt, based on what I knew then.
 
 ## Java Programs
 * [Area](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-1/Miscellaneous/src/miscellaneous/Area.java) - Demonstrates compile time polymorphism via method overloading.
