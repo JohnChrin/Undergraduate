@@ -17,5 +17,5 @@ Some of the following are very simple, but thats why they are lumped into a sing
 
 ## Array Dimensions
 Here is an example of a multiple dimensional array, I did not find anything that showcased it in this manner so I quickly drew it out. This demonstrates a one-dimensional array growing into a two-dim to three-dim array and how the lengths of them are determined dependent on the index cited. The biggest take away is the nesting of arrays in terms of dimensionality. The illustrative benefit here shows how the nesting of groups of numbers would look when organized, which is typically not the case when viewing code.
-
+##
 ![MultiDimArrayEx](https://github.com/Spades86/Undergraduate/blob/master/images/MultiDimArrayEx.png)
