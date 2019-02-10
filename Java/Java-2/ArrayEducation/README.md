@@ -14,3 +14,6 @@ Some of the following are very simple, but thats why they are lumped into a sing
 [SumARowFamilyCellBills](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-2/ArrayEducation/src/arrayEducation/SumARowFamilyCellBills.java) - User inputs month of cell phone bills they want summed. \
 [SumEachRowFamilyCellBills](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-2/ArrayEducation/src/arrayEducation/SumEachRowFamilyCellBills.java) - Sums each row, no user input. \
 [SummingArrayElements](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-2/ArrayEducation/src/arrayEducation/SummingArrayElements.java) - One-dimensional array summation.
+
+## Array Dimensions
+![MultiDimArrayEx](https://github.com/Spades86/Undergraduate/blob/master/images/MultiDimArrayEx.png)
