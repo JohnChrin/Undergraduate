@@ -2,6 +2,10 @@
 ## Introduction
 Some of the following are very simple, but thats why they are lumped into a single project. The educational value of grasping how arrays work and how to manipulate them is a fundemental skill. The most interesting comprehension was  was the value of understanding array dimensions; 3d arrays happen to be a linear array of arrays.  
 
+## Table of Contents
+* [Java Programs](#java-programs) - Listing and links to individual programs.
+* [Array Dimensions](#array-dimensions) - An illustrative example of array dimensionality.
+
 ## Java Programs
 [CellBills](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-2/ArrayEducation/src/arrayEducation/CellBills.java) - Simple creation of a 6 element array; displays first and last values. \
 [ComparingArrays](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-2/ArrayEducation/src/arrayEducation/ComparingArrays.java) - Compares the length, then the elements in 2 arrays. \
