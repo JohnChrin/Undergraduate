@@ -1,6 +1,6 @@
 # Bank
 ## Introduction
-The Bank job. We're in, we're out, 30 seconds... Okay, but seriously, this is a series of packages that all import and extend the original bank project's file called BankAccount(). The purpose to this series of projects was to explore the usage importing classes and then extending them. By importing and extending, we can use classes from separate packages as psuedo child classes. 
+The Bank job. We're in, we're out, 30 seconds... Okay, but seriously, this is a series of packages that all import and extend the original bank project's file called BankAccount(). The purpose to this series of projects was to explore the usage importing classes and then extending them. By importing and extending, we can use classes from separate packages as psuedo child classes. Most helpful is saving us from having to use the fully qualified name of the original class by importing it first. 
 
 ## Java Programs
  * [BankAccount](https://github.com/Spades86/Undergraduate/blob/master/Java/Java-2/Bank/src/bank/BankAccount.java) - Default class constructor that all of the following programs instantiate via importation and then by extension.
