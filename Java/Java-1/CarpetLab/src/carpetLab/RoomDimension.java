@@ -17,6 +17,7 @@ public class RoomDimension
 private double Width;
 private double Length;
 private double Area;
+public static double Potato;
 //****************************************************************************************
 ////////////& CONSTRUCTORS / OBJECT CREATOR &////////////
 //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
