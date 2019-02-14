@@ -1,12 +1,10 @@
-# List Squares Linear Regression Program
+# Least Squares Linear Regression Program
 # Author: John A Chrin
 # Section: CS-171-A - FA 17-18
 # Lab Sec: 062
 
 import sys
 import csv
-
-# Denominator's first three letters are 'den' not 'dem' 
 
 # Begin program
 print('Welcome to Linear Regression Generator')
@@ -60,7 +58,7 @@ else:
 avgerr_list = []
 k = 0
 while k < len(n):
-    avgerrval = m * d[k] + bItrpt
+    avgerrval = m * d[k] + b
     error = n[k] - avgerrval
     if error < 0:
         error = error * (-1)
@@ -79,11 +77,11 @@ while p < len(n):
     p+=1
 
 realstderr = sum(stderr_list)
-mrealstderr = ((1 / (len(n) - 2)) * stderr_list)
+mrealstderr = ((1 / (len(n) - 2)) * realstderr)
 rootstderr = round((mrealstderr ** (1 / 2)), 5)
 
 print("Regression Standard Error for Known Values was " + str(rootstderr) + ".")
 
-print('System ready to make predictions')
-print('To quit, type "exit " as the year')
-value = input('Enter Year:')
+# print('System ready to make predictions')
+# print('To quit, type "exit " as the year')
+# value = input('Enter Year:')
