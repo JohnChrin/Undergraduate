@@ -10,13 +10,11 @@ public class mergeSort
 		int i;
 		int array[] = { 12, 9, 4, 99, 120, 1, 3, 10 };
 
-		for (i = 0; i < array.length; i++)
-		{
-			System.out.print(array[i] + " ");
-			System.out.println();
-			mergeSort_srt(array, 0, array.length - 1);
-			System.out.print("Values after the sort:\n");
+		for(int i1:array) {
+		    System.out.print(i1 + " ");
 		}
+		System.out.println("");	
+		mergeSort_srt(array, 0, array.length - 1);
 		for (i = 0; i < array.length; i++)
 		{
 			System.out.print(array[i] + " ");
