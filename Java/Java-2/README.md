@@ -1,6 +1,6 @@
 # ![JavaLogoSmall](https://github.com/Spades86/Undergraduate/blob/master/images/JavaLogoSmall.png?raw=true) Java-2
 ## Introduction
-My second semester narrowed my focus on code structuring (such as declaring variables at the start of the class and protecting them with the appropriate labelling for security and using multiple classes per project.
+My second semester narrowed my focus on code structuring such as declaring variables at the start of the class and protecting them with the appropriate labelling for security and using multiple classes per project.
 
 ## Table of Contents
 * [ArrayEducation](https://github.com/Spades86/Undergraduate/tree/master/Java/Java-2/ArrayEducation) - Compilation of utilizing arrays.
